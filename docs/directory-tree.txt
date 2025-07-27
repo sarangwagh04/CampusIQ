@@ -1,0 +1,62 @@
+CampusIQ/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py               # FastAPI/Flask main application
+│   │   ├── database/
+│   │   │   ├── models.py         # ORM models
+│   │   │   ├── db_config.py      # DB connection logic
+│   │   │   └── seed.py           # Sample data seeding
+│   │   ├── routes/
+│   │   │   ├── auth.py           # Login/register
+│   │   │   ├── chatbot.py        # AI Chatbot endpoint
+│   │   │   ├── attendance.py
+│   │   │   ├── result.py
+│   │   │   ├── announcements.py
+│   │   │   └── events.py
+│   │   ├── services/
+│   │   │   ├── chatbot_engine.py # OpenAI interaction
+│   │   │   └── utils.py          # Utility functions
+│   │   └── templates/            # Optional: for Jinja2 if using Flask
+│   │       └── ...
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── assets/
+│   │       ├── images/
+│   │       └── styles/
+│   │           └── style.css
+│   ├── src/
+│   │   ├── js/
+│   │   │   ├── chatbot.js
+│   │   │   ├── attendance.js
+│   │   │   ├── result.js
+│   │   │   ├── events.js
+│   │   │   └── announcements.js
+│   │   └── components/
+│   │       ├── Navbar.html
+│   │       ├── Footer.html
+│   │       └── Dashboard.html
+│   └── package.json              # If using build tools like Vite or Parcel
+│
+├── data/
+│   ├── sample_students.csv
+│   ├── result_data.xlsx
+│   └── syllabus/
+│       └── cs_syllabus.txt
+│
+├── docs/
+│   ├── README.md
+│   ├── project_description.pdf
+│   └── database_schema.png
+│
+├── tests/
+│   ├── test_chatbot.py
+│   ├── test_attendance.py
+│   └── ...
+│
+├── .gitignore
+├── LICENSE
+└── README.md
