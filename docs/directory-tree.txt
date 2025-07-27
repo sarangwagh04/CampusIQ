@@ -25,9 +25,9 @@ CampusIQ/
 │   ├── public/
 │   │   ├── index.html
 │   │   └── assets/
-│   │       ├── images/
-│   │       └── styles/
-│   │           └── style.css
+│   │   |   └── images/
+│   │   └── styles/
+│   │       └── style.css
 │   ├── src/
 │   │   ├── js/
 │   │   │   ├── chatbot.js
