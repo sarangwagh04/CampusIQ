@@ -1,0 +1,28 @@
+# Python
+__pycache__
+.pyc
+env
+venv
+.env
+
+# Node
+node_modules
+dist
+build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database & Logs
+.db
+.sqlite3
+.log
+
+# IDEs
+.vscode
+.idea
+
+# Others
+.bak
+.swp
