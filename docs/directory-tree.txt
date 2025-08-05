@@ -22,12 +22,13 @@ CampusIQ/
 │   └── requirements.txt
 │
 ├── frontend/
-│   ├── public/
-│   │   ├── index.html
+│   ├───── index.html
 │   │   └── assets/
 │   │   |   └── images/
 │   │   └── styles/
-│   │       └── style.css
+│   │   |   └── style.css
+|   |   └── js/
+|   |       └── script.js
 │   ├── src/
 │   │   ├── js/
 │   │   │   ├── chatbot.js
