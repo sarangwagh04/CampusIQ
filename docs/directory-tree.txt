@@ -43,6 +43,8 @@ CampusIQ/
 │   └── package.json              # If using build tools like Vite or Parcel
 │
 ├── data/
+│   │   └── confidential/
+│   │       └── clg_data.pdf
 │   ├── sample_students.csv
 │   ├── result_data.xlsx
 │   └── syllabus/
